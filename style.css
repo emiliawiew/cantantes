@@ -88,7 +88,7 @@ img{
     justify-content: center;
     align-items: center;
     top: 0; /* Position the navbar at the top of the page */
-    width: 25%; /* Full width */
+    width: 10%; /* Full width */
   }
   /* Links inside the navbar */
 .navbar a {
@@ -119,4 +119,47 @@ img{
 
   body {
     background-color: rgb(225, 221, 231);
-  } 
+  }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+table, th, td {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  border:1px solid rgb(196, 174, 148);
+  background-color: #320a52;
+  
+}
+
+th, td {
+  padding: 12px 15px;
+  color: rgb(196, 174, 148);
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+iframe{
+  justify-content: center;
+  align-items: center;
+}
